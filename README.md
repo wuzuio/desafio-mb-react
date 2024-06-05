@@ -29,7 +29,7 @@ Criar uma aplicação cliente (browser) de cadastro de usuários que envia os da
 
 ```mermaid
 flowchart TD
-    A[Server NodeJS Method:GET] -->|Client - HTML with Vue Registration Components| B(Render Page and form steps components logic)
+    A[Server NodeJS Method:GET] -->|Client - HTML with ReactJS Components| B(Render Page and form steps components logic)
     B --> C(User fill the data)
     C --> D{POST data to an API on NodeJS Express}
     D -->|Success| F[Displays result/response]
